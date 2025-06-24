@@ -1,0 +1,17 @@
+CREATE TABLE pacienteeees(
+	nome_pacienteeees VARCHAR(100),
+    matricula_pacienteeees INT,
+    cpf_pacienteeees INT,
+    especialista VARCHAR(100),
+    data_consulta DATE,
+	medico VARCHAR (100)
+);
+-- Inserção de dados na tabela
+INSERT INTO pacienteeees(nome_pacienteeees, matricula_pacienteeees, cpf_pacienteeees, especialista, data_consulta, medico)
+VALUES
+    ( 'joão silva','124' , '158.925.854-78' ,'clinico geral', '2025-01-10','dra.carla sampaio'),
+	( 'joão silva', '124', '158.925.854-78' , 'ortopedista','2025-02-05','drjoão lima'),
+    ('maria souza','264', '085.879.547-69', 'nutrologo','2025-03-12', 'drafernanda castro'),
+    ('ana lima', '389', '559.021.589-00','clinico geeral', '2025-01-15', 'drmarcelo santos'),
+    ('ana lima', '389', '559.021.589-00', 'ginecologista','2025-02-01', 'dra carmem ferreira'),
+    ('ana lima', '389', '559.021.589-00', 'ortopedista','2025-03-10', 'dr.joão lima');
