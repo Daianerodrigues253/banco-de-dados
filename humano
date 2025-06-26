@@ -1,0 +1,13 @@
+CREATE TABLE humano (
+     cpf_humano VARCHAR (14),
+     nome_humano VARCHAR(100),
+     email_humano VARCHAR (100),
+     senha_humano INT 
+     );
+     
+     INSERT INTO humano (cpf_humano, nome_humano, email_humano, senha_humano)
+     VALUES
+     ('123.546.897-06','samuel lopes','samuel12@gmail.com',123),
+     ('358.998.784-58','carlos silva','carlossilva45@yahoo.com.br',456),
+     ('968.569.455-89','julia souza','juju34@gmail.com',789);
+     
